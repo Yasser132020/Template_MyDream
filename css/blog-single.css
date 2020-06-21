@@ -1,0 +1,410 @@
+/* start blog-top */
+h1,h2,h3,h4,h5
+{
+    font-family: 'Varela Round', sans-serif;
+}
+.blog-top
+{
+    background-color: #fbfbfb;
+}
+.blog-top-content
+{
+    overflow: hidden;
+}
+.blog-top-title
+{
+    float: left;
+    width: 70%;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.blog-top-links
+{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+.blog-top-links li
+{
+    display: inline-block;
+}
+/*not(:last-child)*/
+.blog-top-links li a
+{
+    color: #6195ff;
+    text-transform: capitalize;
+
+}
+.blog-top-links li:last-child a
+{
+    color: gray;
+}
+.blog-top-links li:not(:last-child)::after
+{
+    content: "/";
+    margin: 0 3px;
+}
+/* End blog-top */
+
+/* Start ContentsLeft */
+.contents
+{
+    overflow: hidden;
+}
+.contents-left
+{
+    width: 70%;
+    float: left;
+}
+.contents-right
+{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+}
+.contents-left .contents-img img
+{
+    width: 100%;
+}
+.contents-icons
+{
+    list-style: none;
+    margin: 15px 0;
+}
+.contents-icons li
+{
+    display: inline-block;
+    margin: 0 5px;
+}
+.contents-icons li i
+{
+    color: #6195ff;
+}
+.contents-title
+{
+    font-size: 20px;
+    margin: 30px 0 20px 0 ;
+}
+.contents-desc
+{
+    color: gray;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    /*text-align: justify;*/
+}
+.contents-tags
+{
+    list-style: none;
+    margin-bottom: 25px;
+}
+.span-tags
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+.contents-tags li
+{
+    display: inline-block;
+    background-color: #e8e8e8;
+    padding: 8px;
+    color: gray;
+}
+.contents-tags li i
+{
+    color: #6195ff;
+}
+.JoeDoe
+{
+    overflow: hidden;
+    padding: 10px 15px 70px 15px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 25px;
+}
+.JoeDoe-img
+{
+    width: 26%;
+    float: left;
+}
+.JoeDoe-img img
+{
+    width: 100%;
+}
+.JoeDoe-content
+{
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+    position: relative;
+}
+.JoeDoe-title
+{
+    font-size: 25px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.JoeDoe-desc
+{
+    color: #999;
+}
+.JoeDoe-title::after
+{
+    position: absolute;
+    top: 45px;
+    left: 2px;
+    content: "";
+    width: 460px;
+    height: 1px;
+    background-color: #e8e8e8;
+}
+.JoeDoe-links
+{
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.JoeDoe-links li
+{
+    display: inline-block;
+}
+.JoeDoe-links li a
+{
+    background-color: #6195ff;
+    padding: 4px;
+}
+
+.JoeDoe-links li a i
+{
+    color: #fff;
+}
+.section-header
+{
+    text-align: left;
+}
+.section-header .section-header-title 
+{
+    font-size: 22px;
+}
+.section-header-line
+{
+    margin: 0 0 25px 0;
+    width: 40px;
+    height: 3px;
+}
+.comments-contents
+{
+    border: 1px solid #e8e8e8;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.comments-content
+{
+    overflow: hidden;
+    padding: 8px 5px 30px 8px;
+    border: 1px solid #e8e8e8;
+}
+.comments-content .comments-img
+{
+    width: 10%;
+    float: left;
+}
+.comments-content .comments-img img
+{
+    width: 100%;
+}
+.comments-item
+{
+    width: 87%;
+    float: left;
+    margin-left: 3%;
+    position: relative;
+}
+.comments-item-title
+{
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.comments-item-desc
+{
+    color: #999;
+}
+.comments-item-btn
+{
+    background-color: transparent;
+    border: 0;
+    color: #6195ff;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    right: 35px;
+    top: 0px;
+}
+.comments-item-span
+{
+    color: gray;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.comments-content2
+{
+    border: 0;
+}
+.comments-content3,.comments-content4
+{
+    margin-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.comments-content3:hover,.comments-content4:hover
+{
+    background-color: #e8e8e8;
+    color: #6195ff;
+}
+.comments-content4
+{
+    margin-bottom: 30px;
+}
+.comments-content5
+{
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+}
+form
+{
+    margin-top: -10px;
+    width: 100%
+}
+form .input input
+{
+    width: 49%;
+    float: left;
+    border: 0;
+    background-color: #e8e8e8;
+    border-radius: 0;
+    outline: none;
+}
+.input1
+{
+    margin-right: 2%;
+}
+textarea.area
+{
+    background-color: #e8e8e8;
+    margin-bottom: 20px; 
+    outline: none;
+}
+input.submit
+{
+    color: #fff;
+    background-color: #6195ff;
+    width: 100px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* Start contents-right */
+.input-search
+{
+    position: relative;
+    margin-bottom: 10px;
+}
+.input-search input
+{
+    
+    width: 100%;
+    background-color: #e8e8e8;
+    border-radius: 0;
+}
+::placeholder
+{
+    color: gray;
+}
+.input-search i
+{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #6195ff;
+}
+.skills-lists .list1
+{
+    border-top: 1px solid #ccc;
+}
+.skills-lists li
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    position: relative;
+}
+.skills-lists li a
+{
+    color: #999;
+    text-transform: capitalize;
+}
+.skills-lists li:hover a
+{
+    color: #6195ff;
+}
+.tag
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #6195ff;
+}
+.section-header
+{
+    margin-top: 20px;
+}
+.popular-posts
+{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.popular-posts-img
+{
+    width: 26%;
+    float: left;
+}
+.popular-posts-img img
+{
+    width: 100%;
+}
+.popular-posts-content
+{
+    width: 68%;
+    float: left;
+    margin-left: 6%;
+}
+.popular-posts-title
+{
+    font-size: 18px;
+}
+.popular-posts-title a
+{
+    color: #333;
+    display: block;
+    margin-bottom: 12px;
+}
+.popular-posts-desc
+{
+    color: #6195ff;
+}
+.span-tags span
+{
+    display: inline-block;
+    background-color: #e8e8e8;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    padding: 5px;
+    margin: 0 0 3px 0;
+}
