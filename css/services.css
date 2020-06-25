@@ -70,5 +70,40 @@
 {
     background-color: var(--maincolor);
 }
-
+@media screen and (max-width:576px)
+{
+    .service-item
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-list li
+    {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .service-item
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-list li
+    {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    .service-item
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-list li
+    {
+        margin-bottom: 10px;
+    }
+}
 /* End Services */

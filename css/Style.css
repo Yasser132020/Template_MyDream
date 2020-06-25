@@ -239,6 +239,46 @@ a
     opacity: 1;
     visibility: visible;
 }
+@media screen and (max-width:576px)/* smart phone(small screen) */
+{
+    .header .logo img
+    {
+        width: 90px;
+    }
+    .header .nav
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)/* medium screen(tablet) */
+{
+    .header .logo img
+    {
+        width: 90px;
+    }
+    .header .nav
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) /* large screen(laptop) */
+{
+    .header .logo img
+    {
+        width: 90px;
+    }
+    .header .nav
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1220px)/* Extra Large */
+{
+    .header .nav
+    {
+        display: none;
+    }
+}
 
 /* Start Home */
 .home
@@ -291,6 +331,18 @@ a
     background-color: var(--maincolor);
     color: #fff;
 }
+@media screen and (max-width:576px)
+{
+    .home-content-title
+    {
+        font-size:2rem;
+    }
+    .btn-start
+    {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
 
 /* End Home */
 
@@ -335,6 +387,39 @@ a
 .ltrEffect:hover .about-item-title
 {
     color: #fff;
+}
+@media screen and (max-width:576px)
+{
+    .about-item
+    {
+        width: 100%;
+    }
+    .about-item.mg
+    {
+        margin: 5% 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .about-item
+    {
+        width: 100%;
+    }
+    .about-item.mg
+    {
+        margin: 5% 0;
+    }
+}
+@media(min-width:769px) and (max-width:992px)
+{
+    .about-item
+    {
+        width: 45%;
+    }
+    .about-item.mg
+    {
+        margin: 0 5% 5% 5%;
+    }
 }
 /* End About */
 
@@ -430,6 +515,41 @@ a
     opacity: 1;
     top: 0;
 }
+@media screen and (max-width:576px)
+{
+    .portfolio-content .portfolio-item
+    {
+        width: 100%;
+    }
+    .portfolio-item.mg
+    {
+        margin: 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .portfolio-content .portfolio-item
+    {
+        width: 100%;
+    }
+    .portfolio-item.mg
+    {
+        margin: 0;
+    }
+    .portfolio-item img
+    {
+        width: 90%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    .portfolio-content .portfolio-item
+    {
+        width: 48%;
+        margin: 0 2% 0 0;
+    }
+   
+}
 /* End Portfolio */
 
 
@@ -468,6 +588,31 @@ a
 {
     color: #fff;
     text-transform: capitalize;
+}
+@media (max-width:576px)
+{
+    .Numbers
+    {
+        height: 400px;
+    }
+    .numbers-item 
+    {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .Numbers
+    {
+        height: 400px;
+    }
+    .numbers-item 
+    {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+   
 }
 /* End Numbers */
 
@@ -543,6 +688,31 @@ a
 {
     color: #fff;
 } 
+@media (max-width:576px)
+{
+    .pricing-item
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pricing-item.mg
+    {
+        margin :0 0 20px 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .pricing-item
+    {
+        width: 45%;
+        margin: 0 5% 0 0;
+    }
+    .pricing-item.mg
+    {
+        margin : 0 0 5% 0;
+    }
+   
+}
 /* End Pricing */
 
 /* Start Testimonial */
@@ -594,6 +764,33 @@ a
 {
     margin-top: -10;
     line-height: 1.5;
+}
+
+
+@media (max-width:576px)
+{
+    .testimonial
+    {
+        height: 600px;
+    }
+    .testimonial-item
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .testimonial
+    {
+        height: 600px;
+    }
+    .testimonial-item
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+   
 }
 /* End Testimonial */
 
@@ -687,6 +884,30 @@ a
 .team-item:hover .team-info-text
 {
     color: var(--maincolor);
+}
+@media (max-width:576px)
+{
+    .team-item
+    {
+        width: 100%;
+    }
+    .team-item.mg
+    {
+        margin: 5% 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .team-item
+    {
+        width: 45%;
+        margin: 0 5% 0 0;
+    }
+    .team-item.mg
+    {
+        margin: 0 0 5% 0;
+    }
+   
 } 
 /* End Team */
 
@@ -741,6 +962,42 @@ a
     color: var(--maincolor);
     text-transform: capitalize;
 }
+@media (max-width:576px)
+{
+    .blog-item
+    {
+        width: 100%;
+    }
+    .blog-item.mg
+    {
+        margin: 5% 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .blog-item
+    {
+        width: 100%;
+    }
+    .blog-item.mg
+    {
+        margin: 5% 0;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    .blog-item
+    {
+        width: 45%;
+        margin: 0 5% 0 0;
+    }
+    .blog-item.mg
+    {
+        margin: 0 0 5% 0;   
+    }
+   
+} 
 /* End Blog */
 
 /* Start contact */
@@ -781,7 +1038,7 @@ a
 */
 form
 {
-    width: 65%;
+    width: 75%;
     margin: auto;
 }
 input
@@ -831,6 +1088,83 @@ textarea
     display: block;
     margin: 40px auto;
     cursor: pointer;
+}
+
+@media (max-width:576px)
+{
+    .contact-item
+    {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .contact-item.mg
+    {
+        margin: 0 0 30px 0;
+    }
+    form
+    {
+        width: 85%;
+        margin: auto;
+    }
+    .input-top input
+    {
+        width: 100%;
+    }
+    input.top2
+    {
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    .contact-item
+    {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .contact-item.mg
+    {
+        margin: 0 0 30px 0;
+    }
+    form
+    {
+        width: 85%;
+        margin: auto;
+    }
+    .input-top input
+    {
+        width: 100%;
+    }
+    input.top2
+    {
+        margin-left: 0;
+    }
+   
+}
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    .contact-item
+    {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .contact-item.mg
+    {
+        margin: 0 0 30px 0;
+    }
+    form
+    {
+        width: 85%;
+        margin: auto;
+    }
+    .input-top input
+    {
+        width: 100%;
+    }
+    input.top2
+    {
+        margin-left: 0;
+    }  
 }
 /* End contact */
 /* Footer Color = 1c1d21 */
